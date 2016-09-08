@@ -22,7 +22,7 @@ def startpage(request):
 	context = {
 		"quizzes": quizzes,
 	}
-	return render(request, "quiz/startpage.html", context)
+	return render(request, "quiz/start.html", context)
 
 def quiz(request):
 	return render(request, "quiz/quiz.html")
