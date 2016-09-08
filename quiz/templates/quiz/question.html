@@ -8,19 +8,22 @@
 <link href="/static/quiz.css" rel="stylesheet">
 <title>Cantwell's quizes</title></head>
 <body>
-<h1>Hanna Cantwell</h1>
+<h1>Hanna Cantwell<br><br></h1>
+<h2>What do you know?</h2>
+<div class="description"><p>...just tell me...</p></div>		
 <div class="bild1"></div>
 <h2>{{ question_number }}. {{ question }}</h2> 
+<div class = "question">
 	<p><input type="radio" name="q1" value="a" id="q1a"><label for="q1a">&nbsp;</label>{{ answer1 }}</p>
 	<p><input type="radio" name="q1" value="a" id="q1a"><label for="q1a">&nbsp;</label>
 {{ answer2 }}</p>
-	<p><input type="radio" name="q1" value="c" id="q1c"><label for="q1c">&nbsp;</label>{{ answer3 }}</p>
+	<p><input type="radio" name="q1" value="c" id="q1c"><label for="q1c">&nbsp;</label>{{ answer3 }}</p></div>
 <div class="container">
 
 
 </ul>
 
-<p><a href="{% url 'completed_page' quiz_number %}" class = "button2">Nästa</a></p><br><br>
+<p><a href="{% url 'completed_page' quiz_number %}" class = "button3">Continue</a></p><br><br>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

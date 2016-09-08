@@ -4,9 +4,12 @@ body {background-image: url(/static/scuffedstatic_dark_1920x1234.jpg);
 .column2 {margin-top: 20px;
 		font: 16pt/1 "Courier New", Courier, monospace;}
 
-h1{font: 20pt/1 "Courier New", Courier, monospace;
+h1{font: 14pt/1 "Courier New", Courier, monospace;
 	color: #ffffff;
 	margin-top: 30px;}
+
+h2 {font: 20pt/1 "Courier New", Courier, monospace;		
+	color: #ffffff;}
 
 p {font: 16pt/1 "Courier New", Courier, monospace;		
 	color: #ffffff;
@@ -14,10 +17,6 @@ p {font: 16pt/1 "Courier New", Courier, monospace;
 	margin-right: auto;
 	list-style-position: inside;
 	padding-left:0;}
-
-h2 {
-	font: 20pt/1 "Courier New", Courier, monospace;		
-	color: #ffffff;}
 
 .description {font: 16pt/1 "Courier New", Courier, monospace;		
 	color: #ffffff;}
@@ -85,6 +84,40 @@ h2 {
 }
 
 .button2:hover {
+  background: #5c2f59;
+  background-image: -webkit-linear-gradient(top, #5c2f59, #9888a3);
+  background-image: -moz-linear-gradient(top, #5c2f59, #9888a3);
+  background-image: -ms-linear-gradient(top, #5c2f59, #9888a3);
+  background-image: -o-linear-gradient(top, #5c2f59, #9888a3);
+  background-image: linear-gradient(to bottom, #5c2f59, #9888a3);
+  text-decoration: none;}
+
+  .button3 {
+  background: #1c1c1c;
+  background-image: -webkit-linear-gradient(top, #1c1c1c, #b0b0b0);
+  background-image: -moz-linear-gradient(top, #1c1c1c, #b0b0b0);
+  background-image: -ms-linear-gradient(top, #1c1c1c, #b0b0b0);
+  background-image: -o-linear-gradient(top, #1c1c1c, #b0b0b0);
+  background-image: linear-gradient(to bottom, #1c1c1c, #b0b0b0);
+  -webkit-border-radius: 24;
+  -moz-border-radius: 24;
+  border-radius: 24px;
+  text-shadow: 5px 3px 3px #454545;
+  -webkit-box-shadow: 4px 5px 7px #666666;
+  -moz-box-shadow: 4px 5px 7px #666666;
+  box-shadow: 4px 5px 7px #666666;
+  "Courier New", Courier, monospace;
+  color: #ffffff;
+  font-size: 26px;
+  padding: 7px 20px 10px 20px;
+  border: solid #828282 4px;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-right: 20px;
+  display:inline-block;
+}
+
+.button3:hover {
   background: #5c2f59;
   background-image: -webkit-linear-gradient(top, #5c2f59, #9888a3);
   background-image: -moz-linear-gradient(top, #5c2f59, #9888a3);

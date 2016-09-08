@@ -3,18 +3,16 @@ from django.shortcuts import render
 quizzes = [
 	{
 		"quiz_number": 1,
-   		"name": "Universum",
-	   	"description": "Har du koll på vintergatan?"
-	},
+   		"name": "The Universe",
+	   	"description": "...there's a starman..."},
 	{
 		"quiz_number": 2,
-   	   	"name": "Jorden",
-	   	"description": "Hur mycket vet du om vår planet?"
-	},
+   	   	"name": "The Earth",
+	   	"description": "...the earth is flat..."},
 	{
 		"quiz_number": 3,
-   	    	"name": "Världens hav",
-	    	"description": "Vad för fiskar simmar i våra hav?"	},
+   	    	"name": "The Oceans",
+	    	"description": "...Where is Nemo..."	},
 ]
 
 
