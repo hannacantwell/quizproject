@@ -1,0 +1,63 @@
+body /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ebf1f6+0,abd3ee+34,d5ebfb+100 */
+{background: rgb(235,241,246); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(235,241,246,1) 0%, rgba(171,211,238,1) 34%, rgba(213,235,251,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(235,241,246,1) 0%,rgba(171,211,238,1) 34%,rgba(213,235,251,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(235,241,246,1) 0%,rgba(171,211,238,1) 34%,rgba(213,235,251,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', endColorstr='#d5ebfb',GradientType=1 ); /* IE6-9 */
+
+	text-align: center;}
+
+.column2 {margin-top: 20px;
+		font: 16pt/1 Arial, Helvetica, sans-serif;
+	font-weight: bold;}
+
+h1{font-weight: bold;
+	background-image: url(pattern_lunding.png);
+	margin-top: auto;}
+
+ul {color: #410051;
+	font: 14pt/1 Arial, Helvetica, sans-serif;
+	font-weight: bold; 
+	font-style: italic;  
+	text-align: left;
+	list-style: inside;
+	margin-left: 170px;}
+
+
+.rubrik {text-decoration: underline;}
+
+
+.undertext {
+color: #410051;
+	font: 12pt/1 Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin-left: auto;
+	width: 300px;
+	margin-right: auto;
+
+.column1 {font: 20pt/1 Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: underline;}
+
+.column20 {font: 20pt/1 Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background-image: url(butterfly-png-image-20.png); 
+	background-repeat: repeat-y;
+	height: 900px;}
+
+.question {font: 12pt/1 Arial, Helvetica, sans-serif;
+	font-weight: bold;}
+
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;}
