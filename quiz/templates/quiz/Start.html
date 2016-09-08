@@ -9,31 +9,27 @@
 <title>Cantwell's quizes</title>
 </head>
 <body>
-<h1>Vilket quiz passar dig bäst?</h1>
-<h2></h2>
+<div class="header">
+<h1>Planeter, hav eller jorden?</h1>
+<h2>Testa vad du har koll på!</h2>
 {% for quiz in quizzes %}
-    <p><a href="{% url 'quiz_page' quiz.quiz_number %}">
-        {{ quiz.name }}
+        
     </a></p>
 {% endfor %}
 <div class="container">
 	<div class="row">
-	<div class="col-md-12"><span class="rubrik"><a href="quiz.html" class="button">Kattquizet!</span></a><br>
+	<div class="col-md-12">
+{% for quiz in quizzes %}
+  <span class="rubrik"><a href="{% url 'quiz_page' quiz.quiz_number %}" class="button">{{ quiz.name }}</span></a>
 
 
-  <span class="undertext"><br><br><br></span>
+  <span class="undertext"></span>
 
-  <span class="rubrik"><a href="quiz.html" class="button">Kattquizet!</span></a><br>
-  
+{% endfor %}
 
-  <span class="undertext"><br><br><br></span>
-
-  <span class="rubrik"><a href="quiz.html" class="button" class="button2">Kattquizet!</span></a><br>
-
-  <span class="undertext"><br><br><br></span></div>
 
 	</div>
-	</div>
+	</div
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

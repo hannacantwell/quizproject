@@ -6,8 +6,10 @@ body {background-image: url(/static/scuffedstatic_dark_1920x1234.jpg);
 	font-weight: bold;}
 
 h1{font-weight: bold;
-	background-image: url(/static/pattern_lunding.png);
-	margin-top: auto;}
+	color: #ffffff;
+	margin-top: 60px;}
+
+
 
 h2 {font-weight: bold;
 	color: #ffffff;}
@@ -34,17 +36,21 @@ h2 {font-weight: bold;
   padding: 7px 20px 10px 20px;
   border: solid #828282 4px;
   text-decoration: none;
+  margin-top: 150px;
+  margin-right: 50px;
+  display:inline-block;
 }
 
-.button2:hover {
+.button:hover {
   background: #5c2f59;
   background-image: -webkit-linear-gradient(top, #5c2f59, #9888a3);
   background-image: -moz-linear-gradient(top, #5c2f59, #9888a3);
   background-image: -ms-linear-gradient(top, #5c2f59, #9888a3);
   background-image: -o-linear-gradient(top, #5c2f59, #9888a3);
   background-image: linear-gradient(to bottom, #5c2f59, #9888a3);
-  text-decoration: none;
-}
+  text-decoration: none;}
+
+a:hover{color: #ffffff;}
 
 .undertext {
 	color: #ffffff;
@@ -58,19 +64,14 @@ h2 {font-weight: bold;
 	font-weight: bold;
 	text-decoration: underline;}
 
-.column2 {box-shadow: 10px 10px 5px #888888;
-
-
-
-}
-
-.column20{font: 20pt/1 Arial, Helvetica, sans-serif;
-	font-weight: bold;
-	background-image: url(/static/butterfly-png-image-20.png); 
-	background-repeat: repeat-y;
-	height: 900px;}
+.column2 {color: #ffffff;
+		font: 20pt/1 Arial, Helvetica, sans-serif;}
 
 .question {font: 12pt/1 Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	color: #ffffff;}
+
+.rubrik {color: #ffffff;
+		a:link: color}
+
 
