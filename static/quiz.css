@@ -12,7 +12,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', end
 	font-weight: bold;}
 
 h1{font-weight: bold;
-	background-image: url(pattern_lunding.png);
+	background-image: url(/static/pattern_lunding.png);
 	margin-top: auto;}
 
 ul {color: #410051;
@@ -41,7 +41,7 @@ color: #410051;
 
 .column20 {font: 20pt/1 Arial, Helvetica, sans-serif;
 	font-weight: bold;
-	background-image: url(butterfly-png-image-20.png); 
+	background-image: url(/static/butterfly-png-image-20.png); 
 	background-repeat: repeat-y;
 	height: 900px;}
 
