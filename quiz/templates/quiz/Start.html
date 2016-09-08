@@ -10,8 +10,9 @@
 </head>
 <body>
 <div class="header">
-<h1>Planeter, hav eller jorden?</h1>
-<h2>Testa vad du har koll på!</h2>
+<h1>Hanna Cantwell<br><br></h1>
+<h2>Universum, haven eller Tellus?<br></h2>
+<div class="bild1"></div>
 {% for quiz in quizzes %}
         
     </a></p>
@@ -21,9 +22,6 @@
 	<div class="col-md-12">
 {% for quiz in quizzes %}
   <span class="rubrik"><a href="{% url 'quiz_page' quiz.quiz_number %}" class="button">{{ quiz.name }}</span></a>
-
-
-  <span class="undertext"></span>
 
 {% endfor %}
 

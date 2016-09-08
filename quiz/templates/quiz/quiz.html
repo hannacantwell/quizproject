@@ -8,17 +8,15 @@
 <link href="/static/quiz.css" rel="stylesheet">
 <title>Cantwell's quizes</title></head>
 <body></body>
-<h1>Välkommen till quiz 1!</h1>
+<h1>Hanna Cantwell</h1>
 <h2>{{ quiz.name }}</h2>
-	<p>{{ quiz.description }}</p>
-<div class="bild1"><img src="/static/bild2.jpg">
+	<div class="description"<<p>{{ quiz.description }}</p></div>
+<div class="bild1"></div>
 <div class="container">
 	<div class="row">
-		<div class="col-md-12 column2"><br>Lycka till med att svara på frågorna. <br>Det går inte på tid så stressa inte!</div>
 		</div>
 		</div>
-		<a href="question.html"> <br>Klicka här för att komma till quizet!</a>
-		<p><a href="{% url 'question_page' quiz_number 1 %}">Starta</a></p>
+		<p><a href="{% url 'question_page' quiz_number 1 %}" class="button2">Starta</a></p>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
