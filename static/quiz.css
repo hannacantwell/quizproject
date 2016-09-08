@@ -45,6 +45,7 @@ p {font: 16pt/1 "Courier New", Courier, monospace;
   margin-top: 80px;
   margin-right: 20px;
   display:inline-block;
+  min-width: 235px;
 }
 
 
@@ -81,6 +82,7 @@ p {font: 16pt/1 "Courier New", Courier, monospace;
   margin-top: 80px;
   margin-right: 20px;
   display:inline-block;
+  min-width: 235px;
 }
 
 .button2:hover {
@@ -90,6 +92,7 @@ p {font: 16pt/1 "Courier New", Courier, monospace;
   background-image: -ms-linear-gradient(top, #5c2f59, #9888a3);
   background-image: -o-linear-gradient(top, #5c2f59, #9888a3);
   background-image: linear-gradient(to bottom, #5c2f59, #9888a3);
+  min-width: 235px;
   text-decoration: none;}
 
   .button3 {
@@ -114,6 +117,7 @@ p {font: 16pt/1 "Courier New", Courier, monospace;
   text-decoration: none;
   margin-top: 30px;
   margin-right: 20px;
+  min-width: 235px;
   display:inline-block;
 }
 
