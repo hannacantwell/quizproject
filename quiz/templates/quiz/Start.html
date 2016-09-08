@@ -9,7 +9,8 @@
 <title>Cantwell's quizes</title>
 </head>
 <body>
-<h1>Vilket quiz passar dig bäst? </h1>
+<h1>Vilket quiz passar dig bäst?</h1>
+<h2></h2>
 {% for quiz in quizzes %}
     <p><a href="{% url 'quiz_page' quiz.quiz_number %}">
         {{ quiz.name }}
@@ -17,22 +18,20 @@
 {% endfor %}
 <div class="container">
 	<div class="row">
-	<div class="col-md-8"><span class="rubrik"><a href="quiz.html" class="button">Det stora kattquizet!</span></a><br>
+	<div class="col-md-12"><span class="rubrik"><a href="quiz.html" class="button">Kattquizet!</span></a><br>
 
 
-  <span class="undertext"><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br><br></span>
+  <span class="undertext"><br><br><br></span>
 
-  <span class="rubrik"><a href="quiz.html" class="button">Det stora kattquizet!</span></a><br>
+  <span class="rubrik"><a href="quiz.html" class="button">Kattquizet!</span></a><br>
   
 
-  <span class="undertext"><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span><br><br>
+  <span class="undertext"><br><br><br></span>
 
-  <span class="rubrik"><a href="quiz.html" class="button">Det stora kattquizet!</span></a><br>
+  <span class="rubrik"><a href="quiz.html" class="button" class="button2">Kattquizet!</span></a><br>
 
-  <span class="undertext"><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br><br></span></div>
+  <span class="undertext"><br><br><br></span></div>
 
-	<div class="col-md-4 column2"><img src="/static/barcelona1.jpg"></div>
-	<div class="col-md-12 footer"></div>
 	</div>
 	</div>
 
