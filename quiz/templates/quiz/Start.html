@@ -10,8 +10,9 @@
 </head>
 <body>
 <h1>Vilket quiz passar dig bäst? </h1>
-{% for quiz in quizzes %}
-	<p>{{ quiz.name }}</p>
+{% for quiz in quizzes %}<p><a href="{% url 'quiz_page' quiz.quiz_number %}">
+        {{ quiz.name }}
+    </a></p>
 {% endfor %}
 <div class="container">
 	<div class="row">
