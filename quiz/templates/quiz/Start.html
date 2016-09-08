@@ -10,7 +10,8 @@
 </head>
 <body>
 <h1>Vilket quiz passar dig bäst? </h1>
-{% for quiz in quizzes %}<p><a href="{% url 'quiz_page' quiz.quiz_number %}">
+{% for quiz in quizzes %}
+    <p><a href="{% url 'quiz_page' quiz.quiz_number %}">
         {{ quiz.name }}
     </a></p>
 {% endfor %}
@@ -23,8 +24,13 @@
   <li><span class="rubrik"><a href="quiz.html">Quiz 3<br></span><span class="undertext">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br><br></span></li>
 </ul></div>
 	<div class="col-md-4 column2"><img src="/static/barcelona1.jpg"></div>
+	<div class="col-md-12 footer"></div>
 	</div>
 	</div>
+
+<footer>
+ <src img="/static/pattern_lunding.png">
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
