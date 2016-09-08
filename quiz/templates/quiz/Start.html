@@ -7,6 +7,11 @@
 <link href="/static/css/bootstrap.min.css" rel="stylesheet">
 <link href="/static/quiz.css" rel="stylesheet">
 <title>Cantwell's quizes</title>
+</head>
+<body>
+{% for quiz in quizzes %}
+	<p>{{ quiz.name }}</p>
+{% endfor %}
 <h1>Vilket quiz passar dig bäst? </h1>
 <div class="container">
 	<div class="row">
