@@ -18,6 +18,11 @@ p {font: 16pt/1 "Courier New", Courier, monospace;
 	list-style-position: inside;
 	padding-left:0;}
 
+.form {text-align: left;
+		width: 10%;
+		margin-left: auto;
+		margin-right: auto;}
+
 .description {font: 16pt/1 "Courier New", Courier, monospace;		
 	color: #ffffff;}
 
