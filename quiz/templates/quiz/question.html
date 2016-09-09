@@ -17,13 +17,16 @@
 <form action="{% url "answer_page" quiz.quiz_number question_number %}" method="post">{% csrf_token %}
 	<p><input type="radio" name="answer" value="1" checked> {{ answer1 }}</p>
 	<p><input type="radio" name="answer" value="2"> {{ answer2 }}</p>
-	<p><input type="radio" name="answer" value="3"> {{ answer3 }}</p></div></form>
+	<p><input type="radio" name="answer" value="3"> {{ answer3 }}</p></div>
+	<p><button type="submit" class="button3">Continue</button></p><br><br>	
+
+	</form>
 <div class="container">
 
 
 </ul>
 
-<p><a href="{% url 'completed_page' quiz_number %}" class = "button3">Continue</a></p><br><br>
+
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
