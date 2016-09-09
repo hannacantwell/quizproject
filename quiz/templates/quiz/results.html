@@ -6,29 +6,19 @@
 <meta name="viewport" content="width=device-width, initialscale=1">
 <link href="/static/css/bootstrap.min.css" rel="stylesheet">
 <link href="/static/quiz.css" rel="stylesheet">
-<title>Cantwell's quizes</title>
-</head>
+<title>Cantwell's quizes</title></head>
 <body>
-<div class="header">
 <h1>Hanna Cantwell<br><br></h1>
-<h2>What do you know about the Universe, the Earth and the Oceans?</h2>
-<div class="description"><p>...is there anybody out there...</p></div>
+<h2>That's all!</h2>
+<div class="description"><p>You're result is {{ correct }} out of {{ total }}!</p></div>
 <div class="bild1"></div>
-{% for quiz in quizzes %}
-        
-    </a></p>
-{% endfor %}
 <div class="container">
 	<div class="row">
-	<div class="col-md-12">
-{% for quiz in quizzes %}
-  <span class="rubrik"><a href="{% url 'quiz_page' quiz.quiz_number %}" class="button">{{ quiz.name }}</span></a>
+		<div class="col-md-12 column2"><br></div>
+		</div>
+		</div>
 
-{% endfor %}
-
-
-	</div>
-	</div
+		<p><a href="{% url 'start_page' %}" class = "button">I want to go home</a></p>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
