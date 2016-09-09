@@ -14,10 +14,11 @@
 <div class="bild1"></div>
 <h2>{{ question_number }}. {{ question }}</h2> 
 <div class = "question">
+<form action="{% url "answer_page" quiz.quiz_number question_number %}" method="post">{% csrf_token %}
 	<p><input type="radio" name="q1" value="a" id="q1a"><label for="q1a">&nbsp;</label>{{ answer1 }}</p>
 	<p><input type="radio" name="q1" value="a" id="q1a"><label for="q1a">&nbsp;</label>
 {{ answer2 }}</p>
-	<p><input type="radio" name="q1" value="c" id="q1c"><label for="q1c">&nbsp;</label>{{ answer3 }}</p></div>
+	<p><input type="radio" name="q1" value="c" id="q1c"><label for="q1c">&nbsp;</label>{{ answer3 }}</p></div></form>
 <div class="container">
 
 
